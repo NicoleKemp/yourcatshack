@@ -1,0 +1,53 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-main {
+    background: url(img/bg-main.jpg) no-repeat center right;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    .bg-main { background-position: center center;}
+}
+section {
+    display: flex;
+    height: 100%;
+}
+div {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    background: rgba(0,0,0,0.3);
+
+}
+@media (min-width: 768px) {
+    div {
+        position: absolute;
+        right: 150px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+hr {
+    margin: 20px 0;
+    opacity: 0.2;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+h1 span { font-weight: 700;}
+
+p {
+    font-weight: 300;
+    line-height: 22px;
+}
+a { color: #fff; text-decoration: none;}
