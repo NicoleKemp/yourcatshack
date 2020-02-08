@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcf0d11-9134-4d00-86d5-1f2b44632e2b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terms.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Terms.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-main.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fav-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fav-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic-email@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/ic-email@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic-fb@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/ic-fb@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic-paw@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/ic-paw@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic-phone@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/ic-phone@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo_white@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terms.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/terms.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intake-form.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/intake-form.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/main.less" afterDir="false" />
     </list>
@@ -56,13 +47,13 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img/gallery" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,6 +268,8 @@
       <workItem from="1552025497760" duration="560000" />
       <workItem from="1565095331129" duration="279000" />
       <workItem from="1581152367597" duration="2772000" />
+      <workItem from="1581157060418" duration="264000" />
+      <workItem from="1581157766805" duration="644000" />
     </task>
     <servers />
   </component>
@@ -288,7 +281,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
