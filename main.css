@@ -254,8 +254,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('http://fonts/glyphicons-halflings-regular.eot');
-  src: url('http://fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('http://fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('http://fonts/glyphicons-halflings-regular.woff') format('woff'), url('http://fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('http://fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -1086,12 +1086,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #C22828;
+  color: #713b96;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #831b1b;
+  color: #48255f;
   text-decoration: underline;
 }
 a:focus {
@@ -1296,7 +1296,7 @@ small,
 mark,
 .mark {
   background-color: #fcf8e3;
-  padding: .2em;
+  padding: 0.2em;
 }
 .text-left {
   text-align: left;
@@ -1326,11 +1326,11 @@ mark,
   color: #777777;
 }
 .text-primary {
-  color: #C22828;
+  color: #713b96;
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #981f1f;
+  color: #552d71;
 }
 .text-success {
   color: #3c763d;
@@ -1362,11 +1362,11 @@ a.text-danger:focus {
 }
 .bg-primary {
   color: #fff;
-  background-color: #C22828;
+  background-color: #713b96;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #981f1f;
+  background-color: #552d71;
 }
 .bg-success {
   background-color: #dff0d8;
@@ -1599,13 +1599,71 @@ pre code {
   margin-left: -15px;
   margin-right: -15px;
 }
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
   float: left;
 }
 .col-xs-12 {
@@ -1762,7 +1820,18 @@ pre code {
   margin-left: 0%;
 }
 @media (min-width: 768px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
     float: left;
   }
   .col-sm-12 {
@@ -1920,7 +1989,18 @@ pre code {
   }
 }
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
     float: left;
   }
   .col-md-12 {
@@ -2078,7 +2158,18 @@ pre code {
   }
 }
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
     float: left;
   }
   .col-lg-12 {
@@ -3101,26 +3192,26 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #C22828;
-  border-color: #ad2424;
+  background-color: #713b96;
+  border-color: #633484;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #981f1f;
-  border-color: #430e0e;
+  background-color: #552d71;
+  border-color: #1e1028;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #981f1f;
-  border-color: #7a1919;
+  background-color: #552d71;
+  border-color: #422358;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #981f1f;
-  border-color: #7a1919;
+  background-color: #552d71;
+  border-color: #422358;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3132,8 +3223,8 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background-color: #7a1919;
-  border-color: #430e0e;
+  background-color: #422358;
+  border-color: #1e1028;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -3149,11 +3240,11 @@ fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary.focus {
-  background-color: #C22828;
-  border-color: #ad2424;
+  background-color: #713b96;
+  border-color: #633484;
 }
 .btn-primary .badge {
-  color: #C22828;
+  color: #713b96;
   background-color: #fff;
 }
 .btn-success {
@@ -3385,7 +3476,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #fff;
 }
 .btn-link {
-  color: #C22828;
+  color: #713b96;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3406,7 +3497,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #831b1b;
+  color: #48255f;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3552,7 +3643,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #C22828;
+  background-color: #713b96;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
@@ -3986,7 +4077,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #C22828;
+  border-color: #713b96;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4079,7 +4170,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #C22828;
+  background-color: #713b96;
 }
 .nav-stacked > li {
   float: none;
@@ -4703,7 +4794,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #C22828;
+  color: #713b96;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-left: -1px;
@@ -4724,7 +4815,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #831b1b;
+  color: #48255f;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -4736,8 +4827,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > span:focus {
   z-index: 3;
   color: #fff;
-  background-color: #C22828;
-  border-color: #C22828;
+  background-color: #713b96;
+  border-color: #713b96;
   cursor: default;
 }
 .pagination > .disabled > span,
@@ -4823,7 +4914,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .label {
   display: inline;
-  padding: .2em .6em .3em;
+  padding: 0.2em 0.6em 0.3em;
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
@@ -4831,7 +4922,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: .25em;
+  border-radius: 0.25em;
 }
 a.label:hover,
 a.label:focus {
@@ -4854,11 +4945,11 @@ a.label:focus {
   background-color: #5e5e5e;
 }
 .label-primary {
-  background-color: #C22828;
+  background-color: #713b96;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #981f1f;
+  background-color: #552d71;
 }
 .label-success {
   background-color: #5cb85c;
@@ -4922,7 +5013,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #C22828;
+  color: #713b96;
   background-color: #fff;
 }
 .list-group-item > .badge {
@@ -4997,7 +5088,7 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #C22828;
+  border-color: #713b96;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -5111,7 +5202,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: #fff;
   text-align: center;
-  background-color: #C22828;
+  background-color: #713b96;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5274,8 +5365,8 @@ button.list-group-item {
 .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #C22828;
-  border-color: #C22828;
+  background-color: #713b96;
+  border-color: #713b96;
 }
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
@@ -5291,7 +5382,7 @@ button.list-group-item {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
-  color: #f3c3c3;
+  color: #d2b9e4;
 }
 .list-group-item-success {
   color: #3c763d;
@@ -5671,22 +5762,22 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #ddd;
 }
 .panel-primary {
-  border-color: #C22828;
+  border-color: #713b96;
 }
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #C22828;
-  border-color: #C22828;
+  background-color: #713b96;
+  border-color: #713b96;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #C22828;
+  border-top-color: #713b96;
 }
 .panel-primary > .panel-heading .badge {
-  color: #C22828;
+  color: #713b96;
   background-color: #fff;
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #C22828;
+  border-bottom-color: #713b96;
 }
 .panel-success {
   border-color: #d6e9c6;
@@ -6723,15 +6814,15 @@ button.close {
 }
 .gradient-bg {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c22828+0,c0392b+100 */
-  background: #c22828;
+  background: #713b96;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #c22828 0%, #c0392b 100%);
+  background: -moz-linear-gradient(top, #713b96 0%, #451c61 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #c22828 0%, #c0392b 100%);
+  background: -webkit-linear-gradient(top, #713b96 0%, #451c61 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #c22828 0%, #c0392b 100%);
+  background: linear-gradient(to bottom, #713b96 0%, #451c61 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c22828', endColorstr='#c0392b', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#713b96', endColorstr='#451c61', GradientType=0);
   /* IE6-9 */
 }
 html,
@@ -6762,7 +6853,7 @@ body {
   background: rgba(255, 255, 255, 0.2);
 }
 .bg-main {
-  background: url(http://yourcatshack.co.za/img/bg-main.jpg) no-repeat center;
+  background: url(img/bg-1.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -6771,6 +6862,7 @@ body {
   font-size: 35px;
   color: #fff;
   text-transform: uppercase;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
   font-weight: 700;
   position: absolute;
   left: 0;
@@ -6797,24 +6889,27 @@ body {
 }
 .navbar-dark {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c22828+0,c0392b+100 */
-  background: #c22828;
+  background: #713b96;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #c22828 0%, #c0392b 100%);
+  background: -moz-linear-gradient(top, #713b96 0%, #451c61 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #c22828 0%, #c0392b 100%);
+  background: -webkit-linear-gradient(top, #713b96 0%, #451c61 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #c22828 0%, #c0392b 100%);
+  background: linear-gradient(to bottom, #713b96 0%, #451c61 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c22828', endColorstr='#c0392b', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#713b96', endColorstr='#451c61', GradientType=0);
   /* IE6-9 */
   box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.4);
 }
 .navbar {
   font-weight: 500;
 }
+.navbar .navbar-brand {
+  padding: 5px 15px;
+}
 .navbar .navbar-brand img {
   width: 100%;
-  max-width: 200px;
+  max-width: 280px;
 }
 .navbar .nav li a {
   text-transform: uppercase;
@@ -6832,15 +6927,15 @@ body {
 @media (max-width: 767px) {
   .navbar {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c22828+0,c0392b+100 */
-    background: #c22828;
+    background: #713b96;
     /* Old browsers */
-    background: -moz-linear-gradient(top, #c22828 0%, #c0392b 100%);
+    background: -moz-linear-gradient(top, #713b96 0%, #451c61 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #c22828 0%, #c0392b 100%);
+    background: -webkit-linear-gradient(top, #713b96 0%, #451c61 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #c22828 0%, #c0392b 100%);
+    background: linear-gradient(to bottom, #713b96 0%, #451c61 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c22828', endColorstr='#c0392b', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#713b96', endColorstr='#451c61', GradientType=0);
     /* IE6-9 */
   }
 }
@@ -6850,15 +6945,15 @@ section {
 }
 section.red {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c22828+0,c0392b+100 */
-  background: #c22828;
+  background: #713b96;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #c22828 0%, #c0392b 100%);
+  background: -moz-linear-gradient(top, #713b96 0%, #451c61 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #c22828 0%, #c0392b 100%);
+  background: -webkit-linear-gradient(top, #713b96 0%, #451c61 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #c22828 0%, #c0392b 100%);
+  background: linear-gradient(to bottom, #713b96 0%, #451c61 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c22828', endColorstr='#c0392b', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#713b96', endColorstr='#451c61', GradientType=0);
   /* IE6-9 */
 }
 .arrow-down {
@@ -6870,7 +6965,7 @@ section.red {
   right: 0;
   bottom: 30px;
   margin: auto;
-  background: url(http://yourcatshack.co.za/img/ic-downarrow@2x.png) center no-repeat;
+  background: url(img/ic-downarrow@2x.png) center no-repeat;
   background-size: contain;
   cursor: pointer;
 }
@@ -6897,7 +6992,7 @@ h1 {
   font-weight: 700;
   font-size: 25px;
   text-transform: uppercase;
-  color: #C22828;
+  color: #713b96;
   margin-bottom: 25px;
 }
 h1 span {
@@ -6957,35 +7052,35 @@ p {
   margin: 10px auto;
 }
 .gallery-show .gallery.image-1 {
-  background: url(http://yourcatshack.co.za/img/gallery/img-1.jpg) center no-repeat;
+  background: url(img/gallery/img-1.jpg) center no-repeat;
   background-size: cover;
 }
 .gallery-show .gallery.image-2 {
-  background: url(http://yourcatshack.co.za/img/gallery/img-2.jpg) center no-repeat;
+  background: url(img/gallery/img-2.jpg) center no-repeat;
   background-size: cover;
 }
 .gallery-show .gallery.image-3 {
-  background: url(http://yourcatshack.co.za/img/gallery/img-3.jpg) center no-repeat;
+  background: url(img/gallery/img-3.jpg) center no-repeat;
   background-size: cover;
 }
 .gallery-show .gallery.image-4 {
-  background: url(http://yourcatshack.co.za/img/gallery/img-4.jpg) center no-repeat;
+  background: url(img/gallery/img-4.jpg) center no-repeat;
   background-size: cover;
 }
 .gallery-show .gallery.image-5 {
-  background: url(http://yourcatshack.co.za/img/gallery/img-5.jpg) center no-repeat;
+  background: url(img/gallery/img-5.jpg) center no-repeat;
   background-size: cover;
 }
 .gallery-show .gallery.image-6 {
-  background: url(http://yourcatshack.co.za/img/gallery/img-6.jpg) center no-repeat;
+  background: url(img/gallery/img-6.jpg) center no-repeat;
   background-size: cover;
 }
 .gallery-show .gallery.image-7 {
-  background: url(http://yourcatshack.co.za/img/gallery/img-7.jpg) center no-repeat;
+  background: url(img/gallery/img-7.jpg) center no-repeat;
   background-size: cover;
 }
 .gallery-show .gallery.image-8 {
-  background: url(http://yourcatshack.co.za/img/gallery/img-8.jpg) center no-repeat;
+  background: url(img/gallery/img-8.jpg) center no-repeat;
   background-size: cover;
 }
 footer {
